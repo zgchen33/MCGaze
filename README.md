@@ -24,7 +24,7 @@ This repository contains the official implementation of the paper "End-to-end Vi
 
 We propose to facilitate video gaze estimation via capturing spatial-temporal interaction context among head, face, and eye in an end-to-end learning way, which has not been well concerned yet. Experiments on the challenging Gaze360 dataset verify the superiority of our proposition.
 ## Results and models
-In our work, we test our model in two different dataset setting(Gaze360-setting and l2cs-setting) for fair comparision with previous method.
+In our work, we test our model in two different dataset setting(Gaze360-setting and [l2CS-setting](https://github.com/Ahmednull/L2CS-Net)(i.e., only consider face detectable samples)) for fair comparision with previous method.
 
 You can dowload the checkpoint for the model from the link inside the table.
 | Setting                     | Backbone | MAE-Front180                                   | Checkpoint |
@@ -52,7 +52,7 @@ You can dowload the checkpoint for the model from the link inside the table.
      ```
 ### Prepare your dataset
 1. Download Gaze360 dataset from [official](http://gaze360.csail.mit.edu/).
-2. Using our code to reorganized the img.(You shoud modify the path first!!!)
+2. Using our code to reorganized the img. You shoud modify the path first, and indicate the 'dataset_setting' value (i.e., 'L2CS' or 'Full').
    * ```bash
      python tools/gaze360_img_reorganize.py
      ```
@@ -92,6 +92,6 @@ You can dowload the checkpoint for the model from the link inside the table.
 
 ## Acknowledgement
 
-This code is inspired by [TeViT](https://github.com/hustvl/TeViT) and [MMDetection](https://github.com/open-mmlab/mmdetection). Thanks for their great contributions on the computer vision community.
+This code is inspired by [MPEblink](https://github.com/wenzhengzeng/MPEblink), [TeViT](https://github.com/hustvl/TeViT) and [MMDetection](https://github.com/open-mmlab/mmdetection). Thanks for their great contributions on the computer vision community.
 
 ## Citation
