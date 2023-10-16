@@ -1,7 +1,7 @@
 # End-to-end Video Gaze Estimation via Capturing Head-face-eye Spatial-temporal Interaction Context (aka Multi Clue Gaze)
 <div align="center">
 
-Yiran Guan $^*$, Zhuoguang Chen $^*$, Wenzheng Zeng $^\dag$, Zhiguo Cao and Yang Xiao $^\dag$
+Yiran Guan, Zhuoguang Chen, Wenzheng Zeng, Zhiguo Cao and Yang Xiao
 
 Huazhong University of Science and Technology 
 
