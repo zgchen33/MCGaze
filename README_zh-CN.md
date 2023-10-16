@@ -42,9 +42,9 @@
    conda activate MCgaze
    ```
    
-2. 安装 Pytorch (推荐使用1.7.1 ), scipy, tqdm, pandas.
+2. 安装 Pytorch (推荐使用1.7.1 ), scipy, tqdm, pandas。
 
-3. 安装 MMDetection. 
+3. 安装 MMDetection。
 
    * Install [MMCV](https://mmcv.readthedocs.io/en/latest/get_started/installation.html) first. 1.4.8 is recommended.
 
@@ -53,12 +53,12 @@
      pip install -v -e .
      ```
 ### 准备你的数据集
-1. 从[官方网站](http://gaze360.csail.mit.edu/)下载Gaze360数据集.
+1. 从[官方网站](http://gaze360.csail.mit.edu/)下载Gaze360数据集。
 2. 用我们提供的代码来重新组织数据集排序.(你应该首先检查并修改代码中的文件路径！！！)
    * ```bash
      python tools/gaze360_img_reorganize.py
      ```
-3. 从这个[链接]处下载COCO格式的数据集标注.
+3. 从这个[链接]处下载COCO格式的数据集标注。
 ### 推理及验证
 
 * 运行以下命令以在不同的数据集设置下进行推理和评估。请记住将[数据集路径](./configs/_base_/datasets/gaze360.py)(第三行)更改为您的路径。
