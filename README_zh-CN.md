@@ -46,7 +46,7 @@
 
 3. 安装 MMDetection。
 
-   * Install [MMCV](https://mmcv.readthedocs.io/en/latest/get_started/installation.html) first. 1.4.8 is recommended.
+   * 请先安装[MMCV](https://mmcv.readthedocs.io/en/latest/get_started/installation.html)，推荐使用1.4.8 版本。
 
    * ```bash
      cd MCgaze
