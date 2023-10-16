@@ -2,6 +2,7 @@
 <div align="center">
 
 Yiran Guan\*, Zhuoguang Chen\*, Wenzheng Zeng, Zhiguo Cao and Yang Xiao
+
 *denotes equal contribution
 Huazhong University of Science and Technology 
 
