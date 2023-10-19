@@ -29,7 +29,7 @@ We propose to facilitate video gaze estimation via capturing spatial-temporal in
 In our work, we test our model in two different dataset settings (Gaze360-setting and [l2CS-setting](https://github.com/Ahmednull/L2CS-Net)(i.e., only consider face detectable samples)) for fair comparison with the previous methods.
 
 You can download the checkpoint for the model from the link inside the table.
-| Setting                     | Backbone | MAE-Front180                      | weight |  
+| Setting                     | Backbone | MAE-Front180                      | Weight |  
 | ------------------------ | ------- | ------------------------------------ | ---------------------- |
 | Gaze360-setting   | R-50    |  10.74            |           [Google Drive](https://drive.google.com/file/d/1ru0xhuB5N9kwvN9XLvZMQvVSfOgtbxmq/view?usp=share_link)        |
 | l2cs-setting      | R-50    | 9.81        |        [Google Drive](https://drive.google.com/file/d/1frp_rmER8_hf2xC0hbtjRTLA4TBqYePq/view?usp=share_link)    |               
