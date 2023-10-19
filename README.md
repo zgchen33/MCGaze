@@ -1,11 +1,11 @@
 # End-to-end Video Gaze Estimation via Capturing Head-face-eye Spatial-temporal Interaction Context (aka. Multi Clue Gaze)
 <div align="center">
 
-Yiran Guan\*, Zhuoguang Chen\*, Wenzheng Zeng, Zhiguo Cao and Yang Xiao
+Yiran Guan\*, Zhuoguang Chen\*, [Wenzheng Zeng](https://wenzhengzeng.github.io/)<sup>†</sup>, [Zhiguo Cao](https://scholar.google.com/citations?user=396o2BAAAAAJ), [Yang Xiao](https://scholar.google.com/citations?user=NeKBuXEAAAAJ)<sup>†</sup>
 
 Huazhong University of Science and Technology 
 
-*equal contribution
+*: equal contribution, †: corresponding author
 
 </div>
 
@@ -97,3 +97,4 @@ You can download the checkpoint for the model from the link inside the table.
 This code is inspired by [MPEblink](https://github.com/wenzhengzeng/MPEblink), [TeViT](https://github.com/hustvl/TeViT) and [MMDetection](https://github.com/open-mmlab/mmdetection). Thanks for their great contributions to the computer vision community.
 
 ## Citation
+Coming soon.

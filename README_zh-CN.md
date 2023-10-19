@@ -1,11 +1,11 @@
 # 使用 头-脸-眼 多重线索的时空交互进行端到端的视频视线估计（多重线索视线估计）
 <div align="center">
 
-管一然\*, 陈卓光 \*, 曾文正 , 曹治国 和 肖阳 
+管一然\*，陈卓光 \*，[曾文正](https://wenzhengzeng.github.io/)<sup>†</sup>，[曹治国](https://scholar.google.com/citations?user=396o2BAAAAAJ)， [肖阳](https://scholar.google.com/citations?user=NeKBuXEAAAAJ)<sup>†</sup> 
 
 华中科技大学 
 
-*贡献相同
+*：同等贡献，†：通讯作者
 
 </div>
 
@@ -100,3 +100,4 @@
 此代码的灵感来自 [MPEblink](https://github.com/wenzhengzeng/MPEblink),[TeViT](https://github.com/hustvl/TeViT) 和 [MMDetection](https://github.com/open-mmlab/mmdetection)。感谢他们对计算机视觉社区的巨大贡献。
 
 ## 引用
+即将到来。
