@@ -31,10 +31,11 @@
 在我们的工作中，我们在两种不同的数据集设置（Gaze360-setting 和 [l2CS-setting](https://github.com/Ahmednull/L2CS-Net)（只考虑可检测到人脸的样本））中测试我们的模型，以便与以前的方法进行公平比较。
 
 您可以从表内的链接下载模型的checkpoint。
-| 数据集设置                     | 骨干网络 | 平均角度误差-正面180                                   | Checkpoint |
+| 数据集设置                     | 骨干网络 | 平均角度误差-正面180                                   | 权重 |
 | ------------------------ | ------- | ------------------------------------ | ---------------------- |
-| Gaze360-setting   | R-50    |  10.74            |           url        |
-| l2cs-setting      | R-50    | 9.81        |        url    |               
+| Gaze360-setting   | R-50    |  10.74            |           [谷歌网盘](https://drive.google.com/file/d/1ru0xhuB5N9kwvN9XLvZMQvVSfOgtbxmq/view?usp=share_link)        |
+| l2cs-setting      | R-50    | 9.81        |         [谷歌网盘](https://drive.google.com/file/d/1frp_rmER8_hf2xC0hbtjRTLA4TBqYePq/view?usp=share_link)    |        
+  
 ## 使用本代码库
 ### 准备你的python虚拟环境
 1. 创建一个新的conda环境
