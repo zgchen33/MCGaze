@@ -49,7 +49,7 @@
 
 3. 安装 MMDetection。
 
-   * 请先安装[MMCV](https://mmcv.readthedocs.io/en/latest/get_started/installation.html)，推荐使用1.4.8 版本。
+   * 请先安装[MMCV-full](https://mmcv.readthedocs.io/en/latest/get_started/installation.html)，推荐使用1.4.8 版本。
 
    * ```bash
      cd MCgaze
