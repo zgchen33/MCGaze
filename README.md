@@ -46,7 +46,7 @@ You can download the checkpoint for the model from the link inside the table.
 
 3. Install MMDetection. 
 
-   * Install [MMCV](https://mmcv.readthedocs.io/en/latest/get_started/installation.html) first. 1.4.8 is recommended.
+   * Install [MMCV-full](https://mmcv.readthedocs.io/en/latest/get_started/installation.html) first. 1.4.8 is recommended.
 
    * ```bash
      cd MCgaze
