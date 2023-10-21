@@ -59,6 +59,13 @@ You can download the checkpoint for the model from the link inside the table.
      cd MCgaze
      pip install -v -e .
      ```
+5. Other Problems
+  When an error occurs "FormatCode() got an unexpected keyword argument 'verify'" . This is because the version of the yapf package is too high.
+   ```bash
+   pip uninstall yapf
+   pip install yapf==0.40.1
+   ```
+   If you encounter difficulties during use, please contact us.
 ### Prepare your dataset
 1. Download Gaze360 dataset from [official](http://gaze360.csail.mit.edu/).
 2. Using our code to reorganize the file structure. You should modify the path first, and indicate the 'dataset_setting' value (i.e., 'L2CS' or 'Full').
