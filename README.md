@@ -42,11 +42,18 @@ You can download the checkpoint for the model from the link inside the table.
    conda activate MCgaze
    ```
    
-2. Install Pytorch (1.7.1 is recommended), scip tqdm, pandas.
+2. Install Pytorch (1.7.1 is recommended), scip, tqdm, pandas.
+   ```bash
+   pip install mmcv-full==1.4.8 -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7.1/index.html
+   pip install scip tqdm pandas
+   ```
 
-3. Install MMDetection. 
+4. Install MMDetection. 
 
    * Install [MMCV-full](https://mmcv.readthedocs.io/en/latest/get_started/installation.html) first. 1.4.8 is recommended.
+     ```bash
+     pip install mmcv-full==1.4.8 -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7.1/index.html
+     ```
 
    * ```bash
      cd MCgaze
