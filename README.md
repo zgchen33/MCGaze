@@ -38,8 +38,8 @@ You can download the checkpoint for the model from the link inside the table.
 1. Create a new conda environment:
 
    ```bash
-   conda create -n MCgaze python=3.9
-   conda activate MCgaze
+   conda create -n MCGaze python=3.9
+   conda activate MCGaze
    ```
    
 2. Install Pytorch (1.7.1 is recommended), scip, tqdm, pandas.
