@@ -32,7 +32,7 @@
 
 您可以从表内的链接下载模型的checkpoint。
 | 数据集设置                     | 骨干网络 | 平均角度误差-正面180                                   | 权重 |
-| ------------------------ | ------- | ------------------------------------ | ---------------------- |
+| :------------------------: | :-------: | :------------------------------------: | :----------------------: |
 | Gaze360-setting   | R-50    |  10.74            |           [谷歌网盘](https://drive.google.com/file/d/1ru0xhuB5N9kwvN9XLvZMQvVSfOgtbxmq/view?usp=share_link)        |
 | l2cs-setting      | R-50    | 9.81        |         [谷歌网盘](https://drive.google.com/file/d/1frp_rmER8_hf2xC0hbtjRTLA4TBqYePq/view?usp=share_link)    |        
   
@@ -41,8 +41,8 @@
 1. 创建一个新的conda环境
 
    ```bash
-   conda create -n MCgaze python=3.9
-   conda activate MCgaze
+   conda create -n MCGaze python=3.9
+   conda activate MCGaze
    ```
    
 2. 安装 Pytorch (推荐使用1.7.1 ), scipy, tqdm, pandas。
@@ -52,7 +52,7 @@
    * 请先安装[MMCV-full](https://mmcv.readthedocs.io/en/latest/get_started/installation.html)，推荐使用1.4.8 版本。
 
    * ```bash
-     cd MCgaze
+     cd MCGaze
      pip install -v -e .
      ```
 ### 准备你的数据集
