@@ -52,11 +52,23 @@
 3. 安装 MMDetection。
 
    * 请先安装[MMCV-full](https://mmcv.readthedocs.io/en/latest/get_started/installation.html)，推荐使用1.4.8 版本。
-
+     ```bash
+     pip install mmcv-full==1.4.8 -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7.1/index.html
+     ```
    * ```bash
      cd MCGaze
      pip install -v -e .
      ```
+
+4. 其他可能的问题。
+
+   当你运行代码时有可能会出现这样的报错“FormatCode() got an unexpected keyword argument 'verify”，这是因为yapf包的版本问题，进行以下操作修复。
+    ```bash
+    pip uninstall yapf
+    pip install yapf==0.40.1
+    ```
+    如果你在复现的过程中遇到了其他的困难，欢迎联系我们。
+   
 ### 准备你的数据集
 1. 从[官方网站](http://gaze360.csail.mit.edu/)下载Gaze360数据集。
 2. 用我们提供的代码来重新组织数据集排序。你应该首先检查并修改代码中的文件路径，并指定dataset_setting参数的取值（'L2CS' 或对应Gaze360的 'Full'）
