@@ -17,6 +17,8 @@
 </div>
 
 ## 介绍
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/end-to-end-video-gaze-estimation-via/gaze-estimation-on-gaze360)](https://paperswithcode.com/sota/gaze-estimation-on-gaze360?p=end-to-end-video-gaze-estimation-via)
+
 本代码库包含了论文“使用 头-脸-眼 多重线索的时空交互进行端到端的视频视线估计”的官方实现。
 
 <div align="center">
