@@ -48,8 +48,12 @@
    ```
    
 2. 安装 Pytorch (推荐使用1.7.1 ), scipy, tqdm, pandas。
+   ```bash
+   pip install mmcv-full==1.4.8 -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7.1/index.html
+   pip install scip tqdm pandas
+   ```
 
-3. 安装 MMDetection。
+4. 安装 MMDetection。
 
    * 请先安装[MMCV-full](https://mmcv.readthedocs.io/en/latest/get_started/installation.html)，推荐使用1.4.8 版本。
      ```bash
@@ -60,7 +64,7 @@
      pip install -v -e .
      ```
 
-4. 其他可能的问题。
+5. 其他可能的问题。
 
    当你运行代码时有可能会出现这样的报错“FormatCode() got an unexpected keyword argument 'verify”，这是因为yapf包的版本问题，进行以下操作修复。
     ```bash
