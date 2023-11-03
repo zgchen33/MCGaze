@@ -7,9 +7,12 @@ Huazhong University of Science and Technology
 
 *: equal contribution, †: corresponding author
 
+
 </div>
 
 <div align="center">
+
+<img src="demo/demo3.gif" width="50%"/>
 
 English| [简体中文](/README_zh-CN.md) 
 
