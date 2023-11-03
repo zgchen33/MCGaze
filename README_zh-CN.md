@@ -11,6 +11,7 @@
 
 
 <div align="center">
+<img src="demo/d3_n.gif" width="50%"/><img src="demo/d2_n.gif" width="50%"/>
 
 [English](README.md)|简体中文
 
