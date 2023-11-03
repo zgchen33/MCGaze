@@ -12,7 +12,7 @@ Huazhong University of Science and Technology
 
 <div align="center">
 
-<img src="demo/d3_n.gif" width="50%"/><img src="demo/d2_clip.gif" width="50%"/>
+<img src="demo/d3_n.gif" width="50%"/><img src="demo/d2_n.gif" width="50%"/>
 
 English| [简体中文](/README_zh-CN.md) 
 
