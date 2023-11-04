@@ -118,4 +118,12 @@ You can download the checkpoint for the model from the link inside the table.
 This code is inspired by [MPEblink](https://github.com/wenzhengzeng/MPEblink), [TeViT](https://github.com/hustvl/TeViT) and [MMDetection](https://github.com/open-mmlab/mmdetection). Thanks for their great contributions to the computer vision community.
 
 ## Citation
-Coming soon.
+If MCGaze is useful or relevant to your research, please kindly recognize our contributions by citing our paper:
+'''
+@article{guan2023end,
+  title={End-to-end Video Gaze Estimation via Capturing Head-face-eye Spatial-temporal Interaction Context},
+  author={Guan, Yiran and Chen, Zhuoguang and Zeng, Wenzheng and Cao, Zhiguo and Xiao, Yang},
+  journal={arXiv preprint arXiv:2310.18131},
+  year={2023}
+}
+'''
