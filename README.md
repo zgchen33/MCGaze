@@ -16,6 +16,8 @@ Huazhong University of Science and Technology
 
 English| [简体中文](/README_zh-CN.md) 
 
+### [arXiv](https://arxiv.org/abs/2310.18131) 
+
 </div>
 
 
