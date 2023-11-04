@@ -18,6 +18,8 @@
 
 [English](README.md)|简体中文
 
+### [arXiv](https://arxiv.org/abs/2310.18131) 
+
 </div>
 
 ## 介绍
