@@ -12,7 +12,7 @@ Huazhong University of Science and Technology
 
 <div align="center">
 
-<img src="demo/d3_n.gif" width="50%"/><img src="demo/d2_n.gif" width="50%"/>
+<img src="pictures/d3_n.gif" width="50%"/><img src="pictures/d2_n.gif" width="50%"/>
 
 English| [简体中文](/README_zh-CN.md) 
 
@@ -21,14 +21,13 @@ English| [简体中文](/README_zh-CN.md)
 </div>
 
 
-
 ## Introduction
 
 This repository contains the official implementation of the paper "End-to-end Video Gaze Estimation via Capturing Head-face-eye Spatial-temporal Interaction Context".
 
 <div align="center">
 
-<img src="./fig1.png">
+<img src="pictures/fig1.png">
 
 </div>
 
@@ -50,10 +49,9 @@ You can download the checkpoint for the model from the link inside the table.
    conda activate MCGaze
    ```
    
-2. Install Pytorch (1.7.1 is recommended), scip, tqdm, pandas.
+2. Install Pytorch (1.7.1 is recommended).
    ```bash
    pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
-   pip install scip tqdm pandas
    ```
 
 4. Install MMDetection. 
@@ -67,14 +65,8 @@ You can download the checkpoint for the model from the link inside the table.
      cd MCGaze
      pip install -v -e .
      ```
-5. Other Problems.
-   
-     When an error occurs "FormatCode() got an unexpected keyword argument 'verify'" . This is because the version of the yapf package is too high.
-   ```bash
-   pip uninstall yapf
-   pip install yapf==0.40.1
-   ```
-   If you encounter difficulties during use, please contact us.
+
+   If you encounter difficulties during use, please open a new issue or contact us.
 ### Prepare your dataset
 1. Download Gaze360 dataset from [official](http://gaze360.csail.mit.edu/).
 2. Using our code to reorganize the file structure. You should modify the path first, and indicate the 'dataset_setting' value (i.e., 'L2CS' or 'Full').
@@ -84,7 +76,9 @@ You can download the checkpoint for the model from the link inside the table.
 3. Download the COCO format annotation from this [link].
 ### Inference & Evaluation
 
-* Run the commands below for inference and evaluation in different settings. Remember to change the dataset path to yours.
+* Run the commands below for inference and evaluation in different settings. 
+
+If you want to evaluate the model without training by yourself, you need to download our checkpoints ([gaze360.pth](https://drive.google.com/file/d/1ru0xhuB5N9kwvN9XLvZMQvVSfOgtbxmq/view?usp=share_link) and [l2cs.pth](https://drive.google.com/file/d/1frp_rmER8_hf2xC0hbtjRTLA4TBqYePq/view?usp=share_link)) and then change the checkpoint paths in the shells below.
 
 ##### Gaze360-setting
 
@@ -97,7 +91,6 @@ You can download the checkpoint for the model from the link inside the table.
   ```bash
   bash tools/test_l2cs.sh
   ```
-
 
 
 ### Training

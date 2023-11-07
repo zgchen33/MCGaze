@@ -1,0 +1,12 @@
+matplotlib
+numpy
+pycocotools
+six
+terminaltables
+
+yapf<=0.40.1
+scipy
+tqdm
+pandas
+
+
