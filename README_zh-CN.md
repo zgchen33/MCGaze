@@ -40,8 +40,8 @@
 您可以从表内的链接下载模型的checkpoint。
 | 数据集设置                     | 骨干网络 | 平均角度误差-正面180                                   | 权重 |
 | :------------------------: | :-------: | :------------------------------------: | :----------------------: |
-| Gaze360-setting   | R-50    |  10.74            |           [谷歌网盘](https://drive.google.com/file/d/1ru0xhuB5N9kwvN9XLvZMQvVSfOgtbxmq/view?usp=share_link)        |
-| l2cs-setting      | R-50    | 9.81        |         [谷歌网盘](https://drive.google.com/file/d/1frp_rmER8_hf2xC0hbtjRTLA4TBqYePq/view?usp=share_link)    |        
+| Gaze360-setting   | R-50    |  10.74            |           [谷歌网盘](https://drive.google.com/file/d/1ru0xhuB5N9kwvN9XLvZMQvVSfOgtbxmq/view?usp=drive_link)        |
+| l2cs-setting      | R-50    | 9.81        |         [谷歌网盘](https://drive.google.com/file/d/1frp_rmER8_hf2xC0hbtjRTLA4TBqYePq/view?usp=drive_link)    |        
   
 ## 使用本代码库
 ### 准备你的python虚拟环境
@@ -55,7 +55,6 @@
 2. 安装 Pytorch (推荐使用1.7.1 ), scipy, tqdm, pandas。
    ```bash
    pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
-   pip install scip tqdm pandas
    ```
 
 4. 安装 MMDetection。
@@ -69,13 +68,6 @@
      pip install -v -e .
      ```
 
-5. 其他可能的问题。
-
-   当你运行代码时有可能会出现这样的报错“FormatCode() got an unexpected keyword argument 'verify”，这是因为yapf包的版本问题，进行以下操作修复。
-    ```bash
-    pip uninstall yapf
-    pip install yapf==0.40.1
-    ```
     如果你在复现的过程中遇到了其他的困难，欢迎联系我们。
    
 ### 准备你的数据集
@@ -84,10 +76,50 @@
    * ```bash
      python tools/gaze360_img_reorganize.py
      ```
-3. 从这个[链接]处下载COCO格式的数据集标注。
-### 推理及验证
+3. 从这个[链接](https://drive.google.com/drive/folders/1tNvXMn52bth8zSCGZK_syP6gdt7VLjGq?usp=drive_link)处下载COCO格式的数据集标注, 并放置在对应位置。
 
-* If you want to evaluate the model without training by yourself, you need to download our checkpoints ([gaze360.pth](https://drive.google.com/file/d/1ru0xhuB5N9kwvN9XLvZMQvVSfOgtbxmq/view?usp=share_link) and [l2cs.pth](https://drive.google.com/file/d/1frp_rmER8_hf2xC0hbtjRTLA4TBqYePq/view?usp=share_link)) and then change the checkpoint 
+Here is the right hierarchy of folder `MCGaze/data` below:
+ ```
+  └── data
+      |
+      ├── gaze360
+      |   ├── train_rawframes
+      |   |   ├── 1
+      |   |   |   ├── 00000.png
+      |   |   |   ├── 00001.png
+      |   |   |   └── ...
+      |   |   ├── 2
+      |   |   └── ...
+      |   |     
+      |   ├── test_rawframes
+      |   |   ├── 1
+      |   |   |   ├── 00000.png
+      |   |   |   ├── 00001.png
+      |   |   |   └── ...
+      |   |    
+      |   ├── train.json
+      |   └── test.json
+      |
+      ├── l2cs
+      |   ├── train_rawframes
+      |   |   ├── 1
+      |   |   |   ├── 00000.png
+      |   |   |   └── ...
+      |   |   ├── 2
+      |   |   └── ...
+      |   |     
+      |   ├── test_rawframes
+      |   ├── train.json
+      |   └── test.json
+      └──
+  ``````
+
+### 推理及验证
+* Run the commands below for inference and evaluation in different settings. 
+
+If you want to evaluate the model without training by yourself, you need to download our [checkpoints](https://drive.google.com/drive/folders/1OX_nuxXYTH5i8E11UCyEcAsp6ExHDMra?usp=sharing) (we recommend that you can create a new folder "ckpts" and put the files in it). 
+
+And remember to check if the file paths of shells are right.
 
 ##### Gaze360-setting
 

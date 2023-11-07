@@ -38,8 +38,9 @@ In our work, we test our model in two different dataset settings (Gaze360-settin
 You can download the checkpoint for the model from the link inside the table.
 | Setting                     | Backbone | MAE-Front180                      | Weight |  
 | :------------------------: | :-------: | :------------------------------------: | :----------------------: |
-| Gaze360-setting   | R-50    |  10.74            |           [Google Drive](https://drive.google.com/file/d/1ru0xhuB5N9kwvN9XLvZMQvVSfOgtbxmq/view?usp=share_link)        |
-| l2cs-setting      | R-50    | 9.81        |        [Google Drive](https://drive.google.com/file/d/1frp_rmER8_hf2xC0hbtjRTLA4TBqYePq/view?usp=share_link)    |               
+| Gaze360-setting   | R-50    |  10.74            |           [Google Drive](https://drive.google.com/file/d/1ru0xhuB5N9kwvN9XLvZMQvVSfOgtbxmq/view?usp=drive_link)        |
+| l2cs-setting      | R-50    | 9.81        |        [Google Drive](https://drive.google.com/file/d/1frp_rmER8_hf2xC0hbtjRTLA4TBqYePq/view?usp=drive_link)    |  
+
 ## Get Started
 ### Prepare your python environment
 1. Create a new conda environment:
@@ -73,12 +74,51 @@ You can download the checkpoint for the model from the link inside the table.
    * ```bash
      python tools/gaze360_img_reorganize.py
      ```
-3. Download the COCO format annotation from this [link].
+
+3. Download the COCO format annotation from this [annotations](https://drive.google.com/drive/folders/1tNvXMn52bth8zSCGZK_syP6gdt7VLjGq?usp=drive_link), and put them into corresponding folders.
+
+Here is the right hierarchy of folder `MCGaze/data` below:
+ ```
+  └── data
+      |
+      ├── gaze360
+      |   ├── train_rawframes
+      |   |   ├── 1
+      |   |   |   ├── 00000.png
+      |   |   |   ├── 00001.png
+      |   |   |   └── ...
+      |   |   ├── 2
+      |   |   └── ...
+      |   |     
+      |   ├── test_rawframes
+      |   |   ├── 1
+      |   |   |   ├── 00000.png
+      |   |   |   ├── 00001.png
+      |   |   |   └── ...
+      |   |    
+      |   ├── train.json
+      |   └── test.json
+      |
+      ├── l2cs
+      |   ├── train_rawframes
+      |   |   ├── 1
+      |   |   |   ├── 00000.png
+      |   |   |   └── ...
+      |   |   ├── 2
+      |   |   └── ...
+      |   |     
+      |   ├── test_rawframes
+      |   ├── train.json
+      |   └── test.json
+      └──
+  ``````
 ### Inference & Evaluation
 
 * Run the commands below for inference and evaluation in different settings. 
 
-If you want to evaluate the model without training by yourself, you need to download our checkpoints ([gaze360.pth](https://drive.google.com/file/d/1ru0xhuB5N9kwvN9XLvZMQvVSfOgtbxmq/view?usp=share_link) and [l2cs.pth](https://drive.google.com/file/d/1frp_rmER8_hf2xC0hbtjRTLA4TBqYePq/view?usp=share_link)) and then change the checkpoint paths in the shells below.
+If you want to evaluate the model without training by yourself, you need to download our [checkpoints](https://drive.google.com/drive/folders/1OX_nuxXYTH5i8E11UCyEcAsp6ExHDMra?usp=sharing) (we recommend that you can create a new folder "ckpts" and put the files in it). 
+
+And remember to check if the file paths of shells are right.
 
 ##### Gaze360-setting
 
