@@ -1,4 +1,4 @@
-# 使用 头-脸-眼 多重线索的时空交互进行端到端的视频视线估计（多重线索视线估计）
+# 使用 头-脸-眼 多重线索的时空交互进行端到端的视频视线估计（多重线索视线估计）[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/end-to-end-video-gaze-estimation-via/gaze-estimation-on-gaze360)](https://paperswithcode.com/sota/gaze-estimation-on-gaze360?p=end-to-end-video-gaze-estimation-via)
 <div align="center">
 
 管一然\*，陈卓光 \*，[曾文正](https://wenzhengzeng.github.io/)<sup>†</sup>，[曹治国](https://scholar.google.com/citations?user=396o2BAAAAAJ)， [肖阳](https://scholar.google.com/citations?user=NeKBuXEAAAAJ)<sup>†</sup> 
@@ -12,15 +12,18 @@
 
 <div align="center">
   
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/end-to-end-video-gaze-estimation-via/gaze-estimation-on-gaze360)](https://paperswithcode.com/sota/gaze-estimation-on-gaze360?p=end-to-end-video-gaze-estimation-via)
+
 
 <img src="pictures/d3_n.gif" width="50%"/><img src="pictures/d2_n.gif" width="50%"/>
 
 [English](README.md)|简体中文
 
-### [arXiv](https://arxiv.org/abs/2310.18131) 
+[arXiv](https://arxiv.org/abs/2310.18131) 
 
 </div>
+
+## ✨Demo代码已经添加到本代码库中
+受[gaze360-demo](https://colab.research.google.com/drive/1SJbzd-gFTbiYjfZynIfrG044fWi6svbV?usp=sharing)和[yolov5-crowdhuman](https://github.com/deepakcrk/yolov5-crowdhuman)的启发，我们对给定的一段视频中的每个可检测的人物实现视线估计，并可视化出来。具体代码和细节详见`MCGaze_demo`。
 
 ## 介绍
 
