@@ -1,4 +1,4 @@
-# End-to-end Video Gaze Estimation via Capturing Head-face-eye Spatial-temporal Interaction Context (aka. Multi Clue Gaze)
+# End-to-end Video Gaze Estimation via Capturing Head-face-eye Spatial-temporal Interaction Context (aka. Multi Clue Gaze) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/end-to-end-video-gaze-estimation-via/gaze-estimation-on-gaze360)](https://paperswithcode.com/sota/gaze-estimation-on-gaze360?p=end-to-end-video-gaze-estimation-via)
 <div align="center">
 
 Yiran Guan\*, Zhuoguang Chen\*, [Wenzheng Zeng](https://wenzhengzeng.github.io/)<sup>†</sup>, [Zhiguo Cao](https://scholar.google.com/citations?user=396o2BAAAAAJ), [Yang Xiao](https://scholar.google.com/citations?user=NeKBuXEAAAAJ)<sup>†</sup>
@@ -7,7 +7,7 @@ Huazhong University of Science and Technology
 
 *: equal contribution, †: corresponding author
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/end-to-end-video-gaze-estimation-via/gaze-estimation-on-gaze360)](https://paperswithcode.com/sota/gaze-estimation-on-gaze360?p=end-to-end-video-gaze-estimation-via)
+
 </div>
 
 <div align="center">
@@ -16,10 +16,12 @@ Huazhong University of Science and Technology
 
 English| [简体中文](/README_zh-CN.md) 
 
-### [arXiv](https://arxiv.org/abs/2310.18131) 
+ [arXiv](https://arxiv.org/abs/2310.18131) 
 
 </div>
 
+## ✨Demo code has been added to this repo
+Inspired by [gaze360-demo](https://colab.research.google.com/drive/1SJbzd-gFTbiYjfZynIfrG044fWi6svbV?usp=sharing) and [yolov5-crowdhuman](https://github.com/deepakcrk/yolov5-crowdhuman). We use gaze estimation for each person in a video and visualize it. You can see `MCGaze_demo` for more details.
 
 ## Introduction
 
