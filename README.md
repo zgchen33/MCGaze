@@ -14,13 +14,15 @@ Huazhong University of Science and Technology
 
 <img src="pictures/d3_n.gif" width="50%"/><img src="pictures/d2_n.gif" width="50%"/>
 
-English| [简体中文](/README_zh-CN.md) 
+English | [简体中文](/README_zh-CN.md) 
 
- [arXiv](https://arxiv.org/abs/2310.18131) 
+  [IEEE SPL](https://ieeexplore.ieee.org/document/10316587) | [arXiv](https://arxiv.org/abs/2310.18131) 
 
 </div>
 
-## ✨Demo code has been added to this repo
+## 🥰Our work has been accepted by IEEE Signal Process Letter ！
+
+## ✨Demo code has been added to this repo ！
 Inspired by [gaze360-demo](https://colab.research.google.com/drive/1SJbzd-gFTbiYjfZynIfrG044fWi6svbV?usp=sharing) and [yolov5-crowdhuman](https://github.com/deepakcrk/yolov5-crowdhuman). We use gaze estimation for each person in a video and visualize it. You can see `MCGaze_demo` for more details.
 
 ## Introduction
@@ -157,10 +159,13 @@ This code is inspired by [MPEblink](https://github.com/wenzhengzeng/MPEblink), [
 ## Citation
 If MCGaze is useful or relevant to your research, please kindly recognize our contributions by citing our paper:
 ```
-@article{guan2023end,
-  title={End-to-end Video Gaze Estimation via Capturing Head-face-eye Spatial-temporal Interaction Context},
+@ARTICLE{10316587,
   author={Guan, Yiran and Chen, Zhuoguang and Zeng, Wenzheng and Cao, Zhiguo and Xiao, Yang},
-  journal={arXiv preprint arXiv:2310.18131},
-  year={2023}
-}
+  journal={IEEE Signal Processing Letters}, 
+  title={End-to-end Video Gaze Estimation via Capturing Head-face-eye Spatial-temporal Interaction Context}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/LSP.2023.3332569}}
 ```
