@@ -22,7 +22,7 @@
 
 </div>
 
-## 🥰我们的工作已被IEEE Signal Process Letter接收！
+## 🥰我们的工作已被IEEE Signal Processing Letters接收！
 
 ## ✨Demo代码已经添加到本代码库中!
 受[gaze360-demo](https://colab.research.google.com/drive/1SJbzd-gFTbiYjfZynIfrG044fWi6svbV?usp=sharing)和[yolov5-crowdhuman](https://github.com/deepakcrk/yolov5-crowdhuman)的启发，我们对给定的一段视频中的每个可检测的人物实现视线估计，并可视化出来。具体代码和细节详见`MCGaze_demo`。
