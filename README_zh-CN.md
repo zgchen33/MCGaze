@@ -16,13 +16,15 @@
 
 <img src="pictures/d3_n.gif" width="50%"/><img src="pictures/d2_n.gif" width="50%"/>
 
-[English](README.md)|简体中文
+[English](README.md) | 简体中文
 
-[arXiv](https://arxiv.org/abs/2310.18131) 
+[IEEE SPL](https://ieeexplore.ieee.org/document/10316587) | [arXiv](https://arxiv.org/abs/2310.18131) 
 
 </div>
 
-## ✨Demo代码已经添加到本代码库中
+## 🥰我们的工作已被IEEE Signal Process Letter接收！
+
+## ✨Demo代码已经添加到本代码库中!
 受[gaze360-demo](https://colab.research.google.com/drive/1SJbzd-gFTbiYjfZynIfrG044fWi6svbV?usp=sharing)和[yolov5-crowdhuman](https://github.com/deepakcrk/yolov5-crowdhuman)的启发，我们对给定的一段视频中的每个可检测的人物实现视线估计，并可视化出来。具体代码和细节详见`MCGaze_demo`。
 
 ## 介绍
@@ -160,10 +162,13 @@ And remember to check if the file paths of shells are right.
 ## 引用
 如果 MCGaze 对您的研究有用或相关，请通过引用我们的论文来认可我们的贡献：
 ```
-@article{guan2023end,
-  title={End-to-end Video Gaze Estimation via Capturing Head-face-eye Spatial-temporal Interaction Context},
+@ARTICLE{10316587,
   author={Guan, Yiran and Chen, Zhuoguang and Zeng, Wenzheng and Cao, Zhiguo and Xiao, Yang},
-  journal={arXiv preprint arXiv:2310.18131},
-  year={2023}
-}
+  journal={IEEE Signal Processing Letters}, 
+  title={End-to-end Video Gaze Estimation via Capturing Head-face-eye Spatial-temporal Interaction Context}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/LSP.2023.3332569}}
 ```
