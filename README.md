@@ -20,9 +20,9 @@ English | [简体中文](/README_zh-CN.md)
 
 </div>
 
-## 🥰Our work has been accepted by IEEE Signal Process Letter ！
+## 🥰Our work has been accepted by IEEE Signal Processing Letters！
 
-## ✨Demo code has been added to this repo ！
+## ✨Demo code has been added to this repo！
 Inspired by [gaze360-demo](https://colab.research.google.com/drive/1SJbzd-gFTbiYjfZynIfrG044fWi6svbV?usp=sharing) and [yolov5-crowdhuman](https://github.com/deepakcrk/yolov5-crowdhuman). We use gaze estimation for each person in a video and visualize it. You can see `MCGaze_demo` for more details.
 
 ## Introduction
