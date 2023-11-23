@@ -7,12 +7,12 @@ import numpy as np
 import torch
 
 ################### you should modify the path to raw gaze360 dataset  ############################
-ori_dataset_root = "PATH TO RAW GAZE360 DATASET eg. DataSet/gaze360/gaze360_dataset_htrht37t43t9723kdfnJKhf_v2/imgs/ "
-meta_data_root = "PATH TO metadata.mat"
-origt = "PATH TO ORI GT"
+ori_dataset_root = "PATH to raw GAZE360 img dir eg. DataSet/gaze360/gaze360_dataset_htrht37t43t9723kdfnJKhf_v2/imgs"
+meta_data_root = "PATH to raw GAZE360 metadata eg. DataSet/gaze360/gaze360_dataset_htrht37t43t9723kdfnJKhf_v2/metadata.mat"
+origt = "PATH to raw GAZE360 dataset dir eg. DataSet/gaze360/gaze360_dataset_htrht37t43t9723kdfnJKhf_v2"
 ###################################################################################################
 dataset_settings = ['FULL', 'L2CS']
-target_dataset_roots = ['data/gaze360/', 'data/l2cs']
+target_dataset_roots = ['data/gaze360/', 'data/data/l2cs']
 splits = ['train','test']
 
 for dataset_setting, target_dataset_root in zip(dataset_settings, target_dataset_roots):
@@ -20,13 +20,12 @@ for dataset_setting, target_dataset_root in zip(dataset_settings, target_dataset
         msg = sio.loadmat(meta_data_root)
         recordings = msg["recordings"]
         face_bbox = msg["person_face_bbox"]
-        splits = msg["splits"]
         split_index = msg["split"]
         recording_index = msg["recording"]
         person_index = msg["person_identity"]
         frame_index = msg["frame"]
         total_num = recording_index.shape[1]
-        ori_gt_path = os.path.join(origt , f"/{split}.txt")
+        ori_gt_path = os.path.join(origt, f"{split}.txt")
         f = open(ori_gt_path)
         ori_gt_infos = f.readlines()
         vid_id = 0
