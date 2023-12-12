@@ -12,7 +12,7 @@ meta_data_root = "PATH to raw GAZE360 metadata eg. DataSet/gaze360/gaze360_datas
 origt = "PATH to raw GAZE360 dataset dir eg. DataSet/gaze360/gaze360_dataset_htrht37t43t9723kdfnJKhf_v2"
 ###################################################################################################
 dataset_settings = ['FULL', 'L2CS']
-target_dataset_roots = ['data/gaze360/', 'data/l2cs']
+target_dataset_roots = ['data/gaze360/', 'data/l2cs/']
 splits = ['train','test']
 
 for dataset_setting, target_dataset_root in zip(dataset_settings, target_dataset_roots):
