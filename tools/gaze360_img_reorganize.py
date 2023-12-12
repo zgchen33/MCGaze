@@ -106,7 +106,7 @@ for dataset_setting, target_dataset_root in zip(dataset_settings, target_dataset
                     new_frame_id += 1
                     length += 1
                     new_relative_img_path = os.path.join(str(vid_id), str(new_frame_id).rjust(5, '0') + '.png')
-                    new_img_path = os.path.join(target_dataset_root,dataset_setting, f'{split}_rawframes', new_relative_img_path)
+                    new_img_path = os.path.join(target_dataset_root, f'{split}_rawframes', new_relative_img_path)
                     ori_img_path = os.path.join(ori_dataset_root, ori_gt_info[0])
 
                     cur_img = cv2.imread(ori_img_path)  # 当前处理的图片
