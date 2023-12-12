@@ -23,9 +23,9 @@ def parse_args():
     parser.add_argument('checkpoint',help='Checkpoint file')
     parser.add_argument(
         '--json',
-        default="/data/gaze360/test.json",help='Path to gaze test json file')   
+        default="data/gaze360/test.json",help='Path to gaze test json file')   
     parser.add_argument(
-        '--root', default="/data/gaze360/test_rawframes/", help='Path to image file')
+        '--root', default="data/gaze360/test_rawframes/", help='Path to image file')
 
     parser.add_argument(
         '--device', default='cuda:0', help='Device used for inference')

@@ -6,7 +6,7 @@ clip_length = 7
 # because "l2cs" dataset is diffrent with gaze360, 
 # here we need to define a new "data" dict.  
 dataset_type = 'Gaze360Dataset'
-data_root = "/data/l2cs/"
+data_root = "data/l2cs/"
 
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)

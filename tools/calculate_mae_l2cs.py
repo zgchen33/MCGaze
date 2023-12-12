@@ -9,7 +9,7 @@ def parse_args():
     parser = ArgumentParser()
     parser.add_argument('--evalfile', help='pred_gaze json file',
                         default="results/results_multiclue_gaze_r50_l2cs_test.json")
-    parser.add_argument('--anno', help='annotation json file', default="/data/l2cs/test.json")
+    parser.add_argument('--anno', help='annotation json file', default="data/l2cs/test.json")
     args = parser.parse_args()
     return args
 
