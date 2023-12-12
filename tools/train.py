@@ -6,7 +6,7 @@ import os.path as osp
 import time
 import warnings
 import torch
-os.environ["CUDA_VISIBLE_DEVICES"]='1'
+# os.environ["CUDA_VISIBLE_DEVICES"]='1'
 import mmcv
 import torch
 import torch.distributed as dist
