@@ -120,11 +120,11 @@ Here is the right hierarchy of folder `MCGaze/data` below:
   ``````
 
 ### 推理及验证
-* Run the commands below for inference and evaluation in different settings. 
+* 运行下面的代码实现不同设定情况下的推理和结果验证。  
 
-If you want to evaluate the model without training by yourself, you need to download our [checkpoints](https://drive.google.com/drive/folders/1OX_nuxXYTH5i8E11UCyEcAsp6ExHDMra?usp=sharing) (we recommend that you can create a new folder "ckpts" and put the files in it). 
+如果你希望直接验证我们提供的预训练权重，请下载 [checkpoints](https://drive.google.com/drive/folders/1OX_nuxXYTH5i8E11UCyEcAsp6ExHDMra?usp=sharing) (我们建议您创建一个新文件夹“ckpts”并将文件放入其中)。
 
-And remember to check if the file paths of shells are right.
+并且记得检查shell的文件路径是否正确。
 
 ##### Gaze360-setting
 
