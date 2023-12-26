@@ -77,11 +77,12 @@
    
 ### 准备你的数据集
 1. 从[官方网站](http://gaze360.csail.mit.edu/)下载Gaze360数据集。
-2. 用我们提供的代码来重新组织数据集排序。你应该首先检查并修改代码中的文件路径，并指定dataset_setting参数的取值（'L2CS' 或对应Gaze360的 'Full'）
+2. 下载train.txt和test.txt 在[Gaze360 Github代码库](https://github.com/erkil1452/gaze360/tree/master/code).
+3. 用我们提供的代码来重新组织数据集排序。你应该首先检查并修改代码中的文件路径。
    * ```bash
      python tools/gaze360_img_reorganize.py
      ```
-3. 从这个[链接](https://drive.google.com/drive/folders/1tNvXMn52bth8zSCGZK_syP6gdt7VLjGq?usp=drive_link)处下载COCO格式的数据集标注, 并放置在对应位置。
+4. 从这个[链接](https://drive.google.com/drive/folders/1tNvXMn52bth8zSCGZK_syP6gdt7VLjGq?usp=drive_link)处下载COCO格式的数据集标注, 并放置在对应位置。
 
 Here is the right hierarchy of folder `MCGaze/data` below:
  ```
