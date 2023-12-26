@@ -74,12 +74,13 @@ You can download the checkpoint for the model from the link inside the table.
    If you encounter difficulties during use, please open a new issue or contact us.
 ### Prepare your dataset
 1. Download Gaze360 dataset from [official](http://gaze360.csail.mit.edu/).
-2. Using our code to reorganize the file structure. You should modify the path first, and indicate the 'dataset_setting' value (i.e., 'L2CS' or 'Full').
+2. Download the train.txt and test.txt in [Gaze360's official GitHub repo](https://github.com/erkil1452/gaze360/tree/master/code).
+3. Using our code to reorganize the file structure. You should modify the paths first.
    * ```bash
      python tools/gaze360_img_reorganize.py
      ```
 
-3. Download the COCO format annotation from this [annotations](https://drive.google.com/drive/folders/1tNvXMn52bth8zSCGZK_syP6gdt7VLjGq?usp=drive_link), and put them into corresponding folders.
+4. Download the COCO format annotation from this [annotations](https://drive.google.com/drive/folders/1tNvXMn52bth8zSCGZK_syP6gdt7VLjGq?usp=drive_link), and put them into corresponding folders.
 
 Here is the right hierarchy of folder `MCGaze/data` below:
  ```
